@@ -1,0 +1,28 @@
+.button-style {
+  min-width: 6rem;
+  color: white !important;
+}
+
+.mat-mdc-raised-button.success {
+  background-color: #66bb6a;
+}
+
+.mat-mdc-raised-button.danger {
+  background-color: #f44336;
+}
+
+.mat-mdc-raised-button.caution {
+  background-color: #f7980a;
+}
+
+.mat-mdc-raised-button.primary {
+  background-color: #2651ff;
+}
+
+.mat-mdc-raised-button.basic {
+  background-color: #ffff;
+}
+
+.mat-mdc-raised-button.disabled {
+  background-color: #64748b;
+}

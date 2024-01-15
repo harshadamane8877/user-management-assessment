@@ -1,0 +1,14 @@
+<button
+  mat-raised-button
+  [disabled]="this.disabled"
+  class="button-style"
+  [ngClass]="this.disabled ? 'disabled' : this.color"
+  (click)="onButtonClicked($event)"
+>
+  {{ !this.spinner ? this.title : "" }}
+  <app-spinner
+    *ngIf="this.spinner"
+    [color]="SPINNER_COLOR"
+    [diameter]="20"
+  ></app-spinner>
+</button>

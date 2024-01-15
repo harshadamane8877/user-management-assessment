@@ -1,0 +1,19 @@
+.mat-mdc-progress-spinner.basic {
+  --mdc-circular-progress-active-indicator-color: white;
+}
+
+.mat-mdc-progress-spinner.primary {
+  --mdc-circular-progress-active-indicator-color: #2651ff;
+}
+
+.mat-mdc-progress-spinner.danger {
+  --mdc-circular-progress-active-indicator-color: #f44336;
+}
+
+.mat-mdc-progress-spinner.success {
+  --mdc-circular-progress-active-indicator-color: #66bb6a;
+}
+
+.mat-mdc-progress-spinner.caution {
+  --mdc-circular-progress-active-indicator-color: #f7980a;
+}
